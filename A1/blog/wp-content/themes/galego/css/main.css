@@ -1,0 +1,201 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/02/2016, 08:36:55 PM
+    Author     : Nazart
+*/
+@font-face {
+  font-family: nexabold;
+  font-style: normal;
+  font-weight: normal;
+  src: local('nexabold'), url("../fonts/nexa-bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: nexalight;
+  font-style: normal;
+  font-weight: normal;
+  src: local('nexalight'), url("../fonts/nexa-light.otf") format("truetype");
+}
+body {
+  font-family: 'nexalight' ,sans-serif;
+}
+.menu .navbar-default{
+	background-color:#e57028;
+	border:none;
+	border-radius:0;
+	
+}
+.menu .nav>li{
+	font-size: 20px;
+	background-color:#e57028;
+}
+.menu .navbar-default .navbar-nav>.active>a{
+	color: #ffffff;
+	background-color:#e57028;
+	font-weight: bold;
+}
+.menu .navbar-default .navbar-nav>li>a{
+	color: #ffffff;
+}
+.menu .navbar{
+	margin-bottom:0px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+/*continers*/
+.continerFull{
+	width: 100%;
+    padding: 0px;
+}
+.content-service-items{
+	width: 100%;
+	opacity: 0.5;
+	background-color: #8c8c8c;
+	display: inline-block;
+}
+.continerFull h2{
+	margin-top: 0px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 80px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#map {
+        height: 500px;
+      }
+.content-services, .content-map{
+	background-image: url("../img/bg-servicios.png");
+	background-color: #e57028;
+	color: #ffffff;
+	padding-bottom: 25px;
+	
+}
+.content-map .container{
+	margin-top: 40px;
+}
+.content-proyect{
+	background-color: #454545;
+}
+.content-clients{
+	background-color: #ffffff;
+}
+.content-clients h2 {
+	color: #454545;
+}
+.content-team div h2 {
+	font-size: 35px;
+	color: #ffffff;
+	font-weight:bold;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+.content-team {
+	background-image: url("../img/bg-equipo.png");
+	background-color: #000;
+	color: #ffffff;
+}
+.content-team h2 {
+	padding-top: 10px;
+	color: #ffffff;
+	font-weight:bold;
+}
+
+
+.content-services .title-service{
+	font-size: 60px;
+}
+.content-services .content-service{
+	font-size: 18px;
+}
+
+.content-services .content-service-items{
+	text-align: center;
+    font-size: 0;
+}
+.content-services .content-service-items > div {
+	height: 80px;
+	cursor: pointer;
+}
+
+.content-services .content-service-items .selected{
+	
+	background-color: #0014ff;
+	
+} 
+.content-services .content-service-items > div:hover{
+	background-color: #8186c2;
+}
+
+.content-description-movil{
+	margin-top: 30px; 
+	display: inline-block;
+}
+
+.content-services .content-service-items .service-item-movil {
+	background-image: url("../img/icons-cell.png");
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+.content-services .content-service-items .service-item-pc {
+	background-image: url("../img/icons-desktop.png");
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+.content-services .content-service-items .service-item-cloud {
+	background-image: url("../img/icons-cloud.png");
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.content-contactanos{
+	width: 100%;
+	color: #434141;
+	padding-bottom: 40px;
+}
+.content-contactanos h2 {
+    padding-top: 10px;
+    font-weight: bold;
+	font-size: 80px;
+}
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+
+/*slider*/
+.carousel-caption {
+	    background-color: black;
+    opacity: 0.5;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: -20px;
+    padding-bottom: 47px;
+}
+.carousel-caption a {
+	color: #ffffff;
+	opacity: 1;
+}
+
+.carousel-indicators {
+    bottom: -5px;
+}
+
+.content-area{
+	margin-top: 30px;
+}
+
