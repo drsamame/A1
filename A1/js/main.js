@@ -9,11 +9,11 @@ $(document).ready(function () {
 	var fixmeTop = $('#menu').offset().top;
 	$('.navbar-brand').hide();
 	$('#menu .navbar-brand').hide();
-	$(window).scroll(function () {
+
 
 		$('.navbar-default .navbar-nav > li > a').removeClass('active');
 
-		
+
 		var currentScroll = $(window).scrollTop();
 		if (currentScroll >= fixmeTop) {
 			$('#menu').attr('class', 'navbar navbar-default navbar-fixed-top');
@@ -66,7 +66,7 @@ $(document).ready(function () {
 			$('#item-contactanos').addClass('active');
 		}
 
-	});
+
 	
 	$("#form-contactanos").on("submit", function (event) {
 		event.preventDefault();

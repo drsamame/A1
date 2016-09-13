@@ -46,7 +46,8 @@ body {
 }
 .navbar .navbar-nav {
     display: inline-block;
-    float: none;
+	float: right;
+	margin-right: 44px;
 
 }
 
