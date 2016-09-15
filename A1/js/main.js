@@ -33,8 +33,6 @@ $(document).ready(function () {
 
 		var liMenu = $('.navbar-nav li');
 		var nServicio = $('#servicios').offset().top-78;
-		var nProyectos = $('#proyectos').offset().top-78;
-		var nClientes = $('#clientes').offset().top-78;
 		var nEquipo = $('#equipo').offset().top-78;
 		var nContactanos = $('#contactanos').offset().top-78;
 		var nMenu = $('.navbar-nav a[href^="#"]').offset().top;
@@ -45,17 +43,9 @@ $(document).ready(function () {
 			
 			$('#nav-home').addClass('active');
 		}
-		if(nServicio <= nMenu && nMenu < nProyectos){
-			
+		if(nServicio <= nMenu && nMenu < nEquipo){
+
 			$('#item-servicios').addClass('active');
-		}
-		if(nProyectos <= nMenu && nMenu < nClientes){
-			
-			$('#item-proyectos').addClass('active');
-		}
-		if(nClientes <= nMenu && nMenu < nEquipo){
-			
-			$('#item-clientes').addClass('active');
 		}
 		if(nEquipo <= nMenu && nMenu < nContactanos){
 			
