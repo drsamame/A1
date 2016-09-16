@@ -5824,12 +5824,6 @@ button.close {
   src: url("../fonts/nexa_bold.eot?#iefix") format("embedded-opentype"), url("../fonts/nexa_bold.woff2") format("woff2"), url("../fonts/nexa_bold.woff") format("woff"), url("../fonts/nexa_bold.ttf") format("truetype"), url("../fonts/nexa_bold.svg#nexa_boldregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-@font-face {
-  font-family: 'nexa_lightregular';
-  src: url("../fonts/nexa_light.eot");
-  src: url("../fonts/nexa_light.eot?#iefix") format("embedded-opentype"), url("../fonts/nexa_light.woff2") format("woff2"), url("../fonts/nexa_light.woff") format("woff"), url("../fonts/nexa_light.ttf") format("truetype"), url("../fonts/nexa_light.svg#nexa_lightregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 .segundo {
   margin-top: 160px; }
 
@@ -5884,7 +5878,7 @@ button.close {
     display: block;
     margin-top: 5%; }
     .in_scrolll .navbar-brand img {
-      width: 43%; }
+      width: 68%; }
   .in_scrolll .navbar-header .navbar-toggle {
     border-color: transparent !important;
     background-color: transparent !important; }
@@ -6020,9 +6014,11 @@ button.close {
   bottom: 5%; }
   .slider .carousel-caption h1 {
     margin-top: 70px;
-    font-family: nexa_boldregular;
+    font-family: helvetica;
     text-align: left;
-    font-size: 5.8vh; }
+    font-weight: bold;
+    line-height: 43px;
+    font-size: 7.8vh; }
   .slider .carousel-caption h2 {
     font-weight: normal;
     text-align: left;
@@ -6035,12 +6031,44 @@ button.close {
   bottom: 30px;
   left: 0px; }
 
+.hvr-radial-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+  background: #e1e1e1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  padding: 38px 70px;
+  height: 320px; }
+  .hvr-radial-out .cont-icon {
+    text-align: center; }
+  .hvr-radial-out h1 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 45px;
+    color: #666; }
+  .hvr-radial-out p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #666; }
+
 .content-services {
   height: 100vh;
   min-height: 740px;
   overflow: hidden;
   padding-bottom: 0px;
-  background-image: url("../img/bg-servicios.jpg");
   background-color: #fff;
   background-position: center center;
   background-size: 100% 100%;
@@ -6048,18 +6076,19 @@ button.close {
   .content-services h2 {
     font-family: nexa_boldregular;
     text-align: center;
+    color: blue !important;
     margin-top: 40px;
     font-size: 40px; }
     .content-services h2 .linea {
       margin-bottom: 32px;
       max-width: 160px;
-      background-color: #fff;
+      background-color: #0000f6;
       margin: 10px auto 33px;
       display: block;
       height: 2px; }
   .content-services .content-service-items {
     width: 100%;
-    background-color: rgba(183, 95, 41, 0.36);
+    background-color: #3d3d3d;
     display: inline-block; }
     .content-services .content-service-items ul {
       overflow: hidden;
@@ -6067,52 +6096,72 @@ button.close {
       .content-services .content-service-items ul li {
         height: 70px;
         box-shadow: none;
-        background-size: 37%;
+        background-size: 32%;
         float: none;
         cursor: pointer;
         transition: 0.5s ease all;
         display: inline-block;
         max-width: 80px;
         text-align: center;
-        padding: 0px 10%;
+        padding: 0px 7%;
         margin: 0; }
         .content-services .content-service-items ul li.selected {
-          background-color: #8187c3; }
+          background-color: blue; }
   .content-services .content-service-pages {
     width: 100%;
     margin-top: 67px;
-    margin-bottom: 84px; }
+    margin-bottom: 84px;
+    color: #3d3d3d; }
+    .content-services .content-service-pages ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .content-services .content-service-pages ul li {
+        color: #3d3d3d;
+        font-family: helvetica;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: normal;
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 0;
+        background: url("../img/icons/vineta.png") no-repeat;
+        background-position: 0px 10px; }
+    .content-services .content-service-pages .title-service {
+      font-weight: bold !important; }
+    .content-services .content-service-pages .title-service {
+      font-size: 25px; }
     .content-services .content-service-pages .strategy .title-service {
-      font-size: 30px;
       margin-top: 60px;
-      font-family: nexa_lightregular;
+      font-family: helvetica;
       line-height: 30px;
       margin-bottom: 20px;
       text-transform: uppercase; }
     .content-services .content-service-pages .strategy .content-service {
       font-size: 14px;
-      font-family: nexa_lightregular; }
+      font-family: helvetica; }
       .content-services .content-service-pages .strategy .content-service p {
         margin-bottom: 0px;
         font-size: 16px;
         padding-right: 47px; }
     .content-services .content-service-pages .movil-web .title-service {
-      font-size: 30px;
       margin-top: 75px;
-      font-family: nexa_lightregular;
+      font-family: helvetica;
       line-height: 30px;
       margin-bottom: 20px;
       text-transform: uppercase; }
     .content-services .content-service-pages .movil-web .content-service {
       font-size: 16px;
-      font-family: nexa_lightregular; }
+      font-family: helvetica; }
       .content-services .content-service-pages .movil-web .content-service p {
         margin-bottom: 0px;
-        font-size: 16px; }
+        font-size: 16px;
+        font-weight: lighter; }
     .content-services .content-service-pages .cloud .title-service {
-      font-size: 30px;
       margin-top: 40px;
-      font-family: nexa_lightregular;
+      font-family: helvetica;
       line-height: 30px;
       text-transform: uppercase; }
       .content-services .content-service-pages .cloud .title-service span {
@@ -6123,20 +6172,19 @@ button.close {
         margin-bottom: 20px; }
     .content-services .content-service-pages .cloud .content-service {
       font-size: 16px;
-      font-family: nexa_lightregular; }
+      font-family: helvetica; }
       .content-services .content-service-pages .cloud .content-service p {
         margin-bottom: 0px;
         font-size: 16px; }
     .content-services .content-service-pages .startups .title-service {
-      font-size: 30px;
       margin-top: 20px;
-      font-family: nexa_lightregular;
+      font-family: helvetica;
       line-height: 30px;
       margin-bottom: 20px;
       text-transform: uppercase; }
     .content-services .content-service-pages .startups .content-service {
       font-size: 16px;
-      font-family: nexa_lightregular; }
+      font-family: helvetica; }
       .content-services .content-service-pages .startups .content-service p {
         margin-bottom: 0px;
         font-size: 16px;
@@ -6147,15 +6195,14 @@ button.close {
     .content-services .content-service-pages .akademy {
       text-align: right; }
       .content-services .content-service-pages .akademy .title-service {
-        font-size: 30px;
         margin-top: 75px;
-        font-family: nexa_lightregular;
+        font-family: helvetica;
         line-height: 37px;
         margin-bottom: 20px;
         text-transform: uppercase; }
       .content-services .content-service-pages .akademy .content-service {
         font-size: 16px;
-        font-family: nexa_lightregular; }
+        font-family: helvetica; }
         .content-services .content-service-pages .akademy .content-service p {
           margin-bottom: 0px;
           font-size: 16px; }
@@ -6177,7 +6224,7 @@ button.close {
     .content-proyect h2 .linea {
       margin-bottom: 32px;
       max-width: 190px;
-      background-color: #fff;
+      background-color: #0000f6;
       margin: 10px auto 33px;
       display: block;
       height: 2px; }
@@ -6270,7 +6317,7 @@ button.close {
           margin: 11px auto 20px;
           display: block;
           width: 90px;
-          background-color: #fff; }
+          background-color: #0000f6; }
         .content-proyect .da-thumbs li a div .client {
           display: block;
           text-align: center;
@@ -6420,11 +6467,12 @@ button.close {
     font-family: nexa_boldregular;
     text-align: center;
     margin-top: 60px;
+    color: #0000f6;
     font-size: 40px; }
     .content-contact h2 .linea {
       margin-bottom: 32px;
       max-width: 230px;
-      background-color: #fff;
+      background-color: #0000f6;
       margin: 10px auto 33px;
       display: block;
       height: 2px; }
@@ -6474,7 +6522,7 @@ button.close {
 
 .data-map {
   width: 100%;
-  background-image: url("../img/bg-servicios.jpg"); }
+  background-color: blue; }
   .data-map .container {
     text-align: center;
     color: #fff; }
@@ -6735,7 +6783,7 @@ footer {
     .content-services h2 .linea {
       margin-bottom: 32px;
       max-width: 160px;
-      background-color: #fff;
+      background-color: #0000f6;
       margin: 10px auto 33px;
       display: block;
       height: 2px; }

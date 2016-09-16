@@ -98,7 +98,7 @@ body {
 	margin-bottom: 45px;
 }
 .content-team {
-	background-image: url("../img/bg-equipo.png");
+	background-image: url("../img/content-bg.jpg");
 	background-color: #000;
 	color: #ffffff;
 }
@@ -139,30 +139,40 @@ body {
 	display: inline-block;
 }
 
-.content-services .content-service-items .service-item-movil-web {
-	background-image: url("../img/icons-desktop.png");
+.content-services .content-service-items .ambulance {
+	background-image: url("../img/icons/ambulance.png");
 	background-repeat: no-repeat;
     background-position: center; 
 }
-.content-services .content-service-items .service-item-strategy {
-	background-image: url("../img/icons-strategy.png");
+.content-services .content-service-items .capacitaciones {
+	background-image: url("../img/icons/capacitaciones.png");
 	background-repeat: no-repeat;
     background-position: center; 
 }
-.content-services .content-service-items .service-item-cloud {
-	background-image: url("../img/icons-cloud.png");
+.content-services .content-service-items .examenes-medicos {
+	background-image: url("../img/icons/examenes-medicos.png");
 	background-repeat: no-repeat;
     background-position: center; 
 }
-.content-services .content-service-items .service-item-startups {
-	background-image: url("../img/icons-startup.png");
+.content-services .content-service-items .medicosinhouse {
+	background-image: url("../img/icons/medicosinhouse.png");
 	background-repeat: no-repeat;
     background-position: center; 
 }
-.content-services .content-service-items .service-item-akademy {
-	background-image: url("../img/icons-academy.png");
+.content-services .content-service-items .monitoreoocupacional {
+	background-image: url("../img/icons/monitoreoocupacional.png");
 	background-repeat: no-repeat;
     background-position: center; 
+}
+.content-services .content-service-items .sistemageneracion {
+	background-image: url("../img/icons/sistemageneracion.png");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+.content-services .content-service-items .vigilanciamedica {
+	background-image: url("../img/icons/vigilanciamedica.png");
+	background-repeat: no-repeat;
+    background-position: center;
 }
 
 .content-contactanos{
